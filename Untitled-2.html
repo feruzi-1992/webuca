@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Status</title>
+</head>
+<body>
+    <h1> The System is Closed.</h1>
+  <!---<button id="checkButton">Check System</button>->  
+   <!- <p id="statusMessage"></p>-->
+
+    <script>
+        document.getElementById("checkButton").addEventListener("click", function () {
+            // Check the system status (You'll need to replace this logic with your own)
+            // In this example, we'll just simulate a closed system
+            const isSystemClosed = true;
+
+            if (isSystemClosed) {
+                document.getElementById("statusMessage").textContent = "The system is closed.";
+            } else {
+                document.getElementById("statusMessage").textContent = "The system is open.";
+            }
+        });
+    </script>
+</body>
+</html>
